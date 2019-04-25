@@ -1,3 +1,49 @@
 page-home {
 
+    body{
+        background-color: #d9edf2;
+    }
+    #nav{
+        padding-left: 400px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        background-color: lightblue;
+    }
+    button{
+        font-size:23px;	
+        font-weight: bold;
+        padding:5px;
+        padding-left: 25px;
+        padding-right: 25px;
+        background-color: lightgreen;
+        border-radius: 8px;
+      }
+
+    button:hover{
+        font-size:27px;	
+        font-weight: bold;
+        padding:5px;
+        padding-left: 25px;
+        padding-right: 25px;
+        transition-duration: 0.4s;
+        background-color: lightgreen;
+        border-radius: 8px;
+      }
+
+      #homeContent{
+        text-align: center;
+      }
+
+      #footer{
+          font-size: 10px;
+          text-align: center;
+          background-color: lightgreen;
+          padding-top: 30px;
+          padding-top: 20px;
+          position: fixed;
+          bottom: 0%;
+          width: 100%;
+          
+      }
+
 }
