@@ -1,7 +1,7 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Mullagh Tourism
+      Mullagh Tourism - Home Page
     </ion-title>
   </ion-navbar>
 </ion-header>
@@ -10,17 +10,16 @@
   <body>
 
       <div id="nav">
-      <button> Home</button>
     
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button>Tourist Attractions</button>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button (click)="goAttractions()" ion-button>Attractions </button>
+
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button (click)="goWeather()" ion-button>Weather </button>
       
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button>Weather</button>
-      
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button>Contact</button>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button (click)="goContact()" ion-button>Contact </button>
       </div>
 
       <div id=homeContent>
-
+        
        <!-- <img src="pic1.jpg" alt="Aerial View of Mullagh">-->
 
         <br><br><br>

@@ -1,5 +1,9 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { AttractionsPage } from '../attractions/attractions';
+import { WeatherPage } from '../weather/weather';
+import { ContactPage } from '../contact/contact';
+
 
 @Component({
   selector: 'page-home',
@@ -11,4 +15,21 @@ export class HomePage {
 
   }
 
+  goAttractions()
+  {
+    this.navCtrl.push(AttractionsPage);
+  }
+
+  goWeather()
+  {
+    this.navCtrl.push(WeatherPage);
+  }
+
+  goContact()
+  {
+    this.navCtrl.push(ContactPage);
+  }
+
 }
+
+
