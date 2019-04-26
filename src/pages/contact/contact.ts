@@ -14,7 +14,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'contact.html',
 })
 export class ContactPage {
-
+// Couldnt get storage to work.
   constructor(public navCtrl: NavController, public navParams: NavParams/*, private storage: Storage*/) {
   }
 

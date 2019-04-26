@@ -23,3 +23,5 @@ export class WeatherPage {
   }
 
 }
+
+// Could not get JSON to work with weather.

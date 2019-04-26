@@ -4,6 +4,8 @@ import { AttractionsPage } from '../attractions/attractions';
 import { WeatherPage } from '../weather/weather';
 import { ContactPage } from '../contact/contact';
 
+// ^^ Imports
+
 
 @Component({
   selector: 'page-home',
@@ -14,6 +16,8 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
 
   }
+
+  // NavController to navigate to each page
 
   goAttractions()
   {
